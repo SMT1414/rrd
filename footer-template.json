@@ -1,0 +1,214 @@
+{
+  "version": "0.4",
+  "title": "Red Rocket Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "footer-main",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {"unit": "px", "size": 1200},
+        "padding": {"unit": "px", "top": "60", "right": "30", "bottom": "40", "left": "30", "isLinked": false},
+        "background_background": "classic",
+        "background_color": "#1E1666",
+        "stretch_section": "section-stretched"
+      },
+      "elements": [
+        {
+          "id": "footer-col-1",
+          "elType": "column",
+          "settings": {"_column_size": 30, "_inline_size": 30},
+          "elements": [
+            {
+              "id": "footer-logo",
+              "elType": "widget",
+              "settings": {
+                "image": {"url": "", "id": ""},
+                "width": {"unit": "px", "size": 180},
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+              },
+              "widgetType": "image"
+            },
+            {
+              "id": "footer-about",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>A marketing agency with a difference. Based in Ipswich, Suffolk, we offer cost-effective digital services to get your business noticed.</p>",
+                "text_color": "rgba(255,255,255,0.7)",
+                "typography_font_size": {"unit": "px", "size": 14},
+                "typography_line_height": {"unit": "px", "size": 24}
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "footer-social",
+              "elType": "widget",
+              "settings": {
+                "social_icon_list": [
+                  {"social_icon": {"value": "fab fa-facebook-f", "library": "fa-brands"}, "link": {"url": "#"}},
+                  {"social_icon": {"value": "fab fa-twitter", "library": "fa-brands"}, "link": {"url": "#"}},
+                  {"social_icon": {"value": "fab fa-linkedin-in", "library": "fa-brands"}, "link": {"url": "#"}},
+                  {"social_icon": {"value": "fab fa-instagram", "library": "fa-brands"}, "link": {"url": "#"}}
+                ],
+                "shape": "circle",
+                "icon_color": "custom",
+                "icon_primary_color": "#FFFFFF",
+                "icon_secondary_color": "#EC5D49",
+                "icon_size": {"unit": "px", "size": 14},
+                "icon_spacing": {"unit": "px", "size": 10},
+                "_margin": {"unit": "px", "top": "20", "right": "0", "bottom": "0", "left": "0", "isLinked": false}
+              },
+              "widgetType": "social-icons"
+            }
+          ]
+        },
+        {
+          "id": "footer-col-2",
+          "elType": "column",
+          "settings": {"_column_size": 20, "_inline_size": 20, "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "20", "isLinked": false}},
+          "elements": [
+            {
+              "id": "footer-title-2",
+              "elType": "widget",
+              "settings": {
+                "title": "Quick Links",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "typography_font_size": {"unit": "px", "size": 18},
+                "typography_font_weight": "600",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "footer-links-2",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {"text": "Home", "link": {"url": "/"}, "selected_icon": {"value": "", "library": ""}},
+                  {"text": "About Us", "link": {"url": "/about-us/"}, "selected_icon": {"value": "", "library": ""}},
+                  {"text": "Our Services", "link": {"url": "/our-services/"}, "selected_icon": {"value": "", "library": ""}},
+                  {"text": "Portfolio", "link": {"url": "/web-design-portfolio/"}, "selected_icon": {"value": "", "library": ""}},
+                  {"text": "Contact", "link": {"url": "/contact-us/"}, "selected_icon": {"value": "", "library": ""}}
+                ],
+                "space_between": {"unit": "px", "size": 12},
+                "icon_color": "#EC5D49",
+                "text_color": "rgba(255,255,255,0.7)",
+                "text_color_hover": "#FFFFFF",
+                "text_indent": {"unit": "px", "size": 0},
+                "typography_typography": "custom",
+                "typography_font_size": {"unit": "px", "size": 14}
+              },
+              "widgetType": "icon-list"
+            }
+          ]
+        },
+        {
+          "id": "footer-col-3",
+          "elType": "column",
+          "settings": {"_column_size": 25, "_inline_size": 25},
+          "elements": [
+            {
+              "id": "footer-title-3",
+              "elType": "widget",
+              "settings": {
+                "title": "Our Services",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "typography_font_size": {"unit": "px", "size": 18},
+                "typography_font_weight": "600",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "footer-links-3",
+              "elType": "widget",
+              "settings": {
+                "icon_list": [
+                  {"text": "Web Design", "link": {"url": "/web-design/"}, "selected_icon": {"value": "", "library": ""}},
+                  {"text": "SEO Services", "link": {"url": "/seo/"}, "selected_icon": {"value": "", "library": ""}},
+                  {"text": "Paid Advertising", "link": {"url": "/paid-advertising/"}, "selected_icon": {"value": "", "library": ""}},
+                  {"text": "Social Media", "link": {"url": "/social-media-marketing/"}, "selected_icon": {"value": "", "library": ""}},
+                  {"text": "Content & Copywriting", "link": {"url": "/content-copywriting-ipswich-suffolk/"}, "selected_icon": {"value": "", "library": ""}}
+                ],
+                "space_between": {"unit": "px", "size": 12},
+                "text_color": "rgba(255,255,255,0.7)",
+                "text_color_hover": "#FFFFFF",
+                "typography_font_size": {"unit": "px", "size": 14}
+              },
+              "widgetType": "icon-list"
+            }
+          ]
+        },
+        {
+          "id": "footer-col-4",
+          "elType": "column",
+          "settings": {"_column_size": 25, "_inline_size": 25},
+          "elements": [
+            {
+              "id": "footer-title-4",
+              "elType": "widget",
+              "settings": {
+                "title": "Contact Us",
+                "header_size": "h4",
+                "title_color": "#FFFFFF",
+                "typography_font_size": {"unit": "px", "size": 18},
+                "typography_font_weight": "600",
+                "_margin": {"unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false}
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "footer-address",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p><strong>Address:</strong><br>Epsilon House, West Road<br>Ransomes Euro Park<br>Ipswich, Suffolk IP3 9FJ</p><p><strong>Email:</strong><br><a href=\"mailto:design@redrocket.digital\">design@redrocket.digital</a></p>",
+                "text_color": "rgba(255,255,255,0.7)",
+                "typography_font_size": {"unit": "px", "size": 14},
+                "typography_line_height": {"unit": "px", "size": 24}
+              },
+              "widgetType": "text-editor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "footer-bottom",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {"unit": "px", "size": 1200},
+        "padding": {"unit": "px", "top": "20", "right": "30", "bottom": "20", "left": "30", "isLinked": false},
+        "background_background": "classic",
+        "background_color": "#161250",
+        "border_border": "solid",
+        "border_width": {"unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false},
+        "border_color": "rgba(255,255,255,0.1)",
+        "stretch_section": "section-stretched"
+      },
+      "elements": [
+        {
+          "id": "copyright-col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "copyright",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p style=\"text-align: center;\">© 2024 Red Rocket Digital. All Rights Reserved.</p>",
+                "text_color": "rgba(255,255,255,0.6)",
+                "typography_font_size": {"unit": "px", "size": 14}
+              },
+              "widgetType": "text-editor"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {}
+}

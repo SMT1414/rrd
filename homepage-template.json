@@ -1,0 +1,1553 @@
+{
+  "version": "0.4",
+  "title": "Red Rocket Homepage",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "height": "min-height",
+        "custom_height": {
+          "unit": "px",
+          "size": 600
+        },
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F8F9FA"
+      },
+      "elements": [
+        {
+          "id": "hero-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "hero-heading",
+              "elType": "widget",
+              "settings": {
+                "title": "Ultimate Digital Marketing Solutions For Your Business",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 45
+                },
+                "typography_font_weight": "600",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 55
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "hero-text",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p style=\"text-align: center;\">We have a team of dedicated professionals providing cutting-edge web design, search engine marketing solutions and digital marketing strategies to businesses of all sizes.</p>",
+                "align": "center",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_family": "Roboto",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "100",
+                  "bottom": "30",
+                  "left": "100",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "hero-buttons",
+              "elType": "widget",
+              "settings": {
+                "text": "Get Started",
+                "link": {
+                  "url": "/contact-us/",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "center",
+                "button_type": "default",
+                "background_color": "#FF6C26",
+                "button_background_hover_color": "#FFA526",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "5",
+                  "bottom": "5",
+                  "left": "5",
+                  "isLinked": true
+                },
+                "button_text_padding": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "35",
+                  "bottom": "14",
+                  "left": "35",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_weight": "500"
+              },
+              "widgetType": "button"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "-100",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "service-col-1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(36, 76, 109, 0.12)"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "25",
+              "bottom": "40",
+              "left": "25",
+              "isLinked": false
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "service-icon-1",
+              "elType": "widget",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-laptop-code",
+                  "library": "fa-solid"
+                },
+                "view": "default",
+                "align": "left",
+                "primary_color": "#EC5D49",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 50
+                }
+              },
+              "widgetType": "icon"
+            },
+            {
+              "id": "service-title-1",
+              "elType": "widget",
+              "settings": {
+                "title": "Web Design",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "service-desc-1",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Get a brand new website, or revamp an old one, to stay ahead of the curve with cutting-edge web design.</p>",
+                "align": "left",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 28
+                }
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "service-btn-1",
+              "elType": "widget",
+              "settings": {
+                "text": "Find Out More",
+                "link": {
+                  "url": "/web-design/",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "button_type": "default",
+                "background_color": "#FA887C",
+                "button_background_hover_color": "#FD5F87",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "5",
+                  "bottom": "5",
+                  "left": "5",
+                  "isLinked": true
+                },
+                "button_text_padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "30",
+                  "bottom": "10",
+                  "left": "30",
+                  "isLinked": false
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "button"
+            }
+          ]
+        },
+        {
+          "id": "service-col-2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(36, 76, 109, 0.12)"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "25",
+              "bottom": "40",
+              "left": "25",
+              "isLinked": false
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "service-icon-2",
+              "elType": "widget",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-search",
+                  "library": "fa-solid"
+                },
+                "view": "default",
+                "align": "left",
+                "primary_color": "#16A3BD",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 50
+                }
+              },
+              "widgetType": "icon"
+            },
+            {
+              "id": "service-title-2",
+              "elType": "widget",
+              "settings": {
+                "title": "SEO Services",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "service-desc-2",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Ultimate visibility and exposure awaits you, with superior website optimisation and search engine marketing.</p>",
+                "align": "left",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 28
+                }
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "service-btn-2",
+              "elType": "widget",
+              "settings": {
+                "text": "Find Out More",
+                "link": {
+                  "url": "/seo/",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "button_type": "default",
+                "background_color": "#FA887C",
+                "button_background_hover_color": "#FD5F87",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "5",
+                  "bottom": "5",
+                  "left": "5",
+                  "isLinked": true
+                },
+                "button_text_padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "30",
+                  "bottom": "10",
+                  "left": "30",
+                  "isLinked": false
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "button"
+            }
+          ]
+        },
+        {
+          "id": "service-col-3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(36, 76, 109, 0.12)"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "25",
+              "bottom": "40",
+              "left": "25",
+              "isLinked": false
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "service-icon-3",
+              "elType": "widget",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-bullhorn",
+                  "library": "fa-solid"
+                },
+                "view": "default",
+                "align": "left",
+                "primary_color": "#FFA526",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 50
+                }
+              },
+              "widgetType": "icon"
+            },
+            {
+              "id": "service-title-3",
+              "elType": "widget",
+              "settings": {
+                "title": "Paid Advertising",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "service-desc-3",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Direct your target demographic straight to your products and services through powerful PPC ads.</p>",
+                "align": "left",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 28
+                }
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "service-btn-3",
+              "elType": "widget",
+              "settings": {
+                "text": "Find Out More",
+                "link": {
+                  "url": "/paid-advertising/",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "button_type": "default",
+                "background_color": "#FA887C",
+                "button_background_hover_color": "#FD5F87",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "5",
+                  "bottom": "5",
+                  "left": "5",
+                  "isLinked": true
+                },
+                "button_text_padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "30",
+                  "bottom": "10",
+                  "left": "30",
+                  "isLinked": false
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "button"
+            }
+          ]
+        },
+        {
+          "id": "service-col-4",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(36, 76, 109, 0.12)"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "25",
+              "bottom": "40",
+              "left": "25",
+              "isLinked": false
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "service-icon-4",
+              "elType": "widget",
+              "settings": {
+                "selected_icon": {
+                  "value": "fab fa-facebook-f",
+                  "library": "fa-brands"
+                },
+                "view": "default",
+                "align": "left",
+                "primary_color": "#1656BD",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 50
+                }
+              },
+              "widgetType": "icon"
+            },
+            {
+              "id": "service-title-4",
+              "elType": "widget",
+              "settings": {
+                "title": "Social Media",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "0",
+                  "bottom": "10",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "service-desc-4",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Engage your audience across platforms with strategic social media marketing and content creation.</p>",
+                "align": "left",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 28
+                }
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "service-btn-4",
+              "elType": "widget",
+              "settings": {
+                "text": "Find Out More",
+                "link": {
+                  "url": "/social-media-marketing/",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "button_type": "default",
+                "background_color": "#FA887C",
+                "button_background_hover_color": "#FD5F87",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "5",
+                  "bottom": "5",
+                  "left": "5",
+                  "isLinked": true
+                },
+                "button_text_padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "30",
+                  "bottom": "10",
+                  "left": "30",
+                  "isLinked": false
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "button"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "about-col-img",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 50
+          },
+          "elements": [
+            {
+              "id": "about-image",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "",
+                  "id": ""
+                },
+                "image_size": "full",
+                "align": "center",
+                "_element_custom_css": ".elementor-image img { border-radius: 10px; box-shadow: 0 20px 60px rgba(0,0,0,0.15); }"
+              },
+              "widgetType": "image"
+            }
+          ]
+        },
+        {
+          "id": "about-col-text",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "_inline_size": 50,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "40",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "about-title",
+              "elType": "widget",
+              "settings": {
+                "title": "We Help Businesses Grow Through Digital Marketing",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "600",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 46
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "about-desc",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Red Rocket Digital is a full-service digital marketing agency based in Ipswich, Suffolk. We specialise in web design, SEO, PPC advertising, and social media marketing to help businesses of all sizes achieve their online goals.</p><p>Our team of experienced professionals is dedicated to delivering results-driven strategies that increase visibility, drive traffic, and convert leads into customers.</p>",
+                "align": "left",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "about-btn",
+              "elType": "widget",
+              "settings": {
+                "text": "Learn More About Us",
+                "link": {
+                  "url": "/about-us/",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "button_type": "default",
+                "background_color": "#FF6C26",
+                "button_background_hover_color": "#FFA526",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "5",
+                  "bottom": "5",
+                  "left": "5",
+                  "isLinked": true
+                },
+                "button_text_padding": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "35",
+                  "bottom": "14",
+                  "left": "35",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "button"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats-section",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#FA887C",
+        "background_color_b": "#FD5F87",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 90
+        }
+      },
+      "elements": [
+        {
+          "id": "stat-col-1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25
+          },
+          "elements": [
+            {
+              "id": "stat-1",
+              "elType": "widget",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 500,
+                "suffix": "+",
+                "title": "Projects Completed",
+                "number_color": "#FFFFFF",
+                "title_color": "rgba(255,255,255,0.8)",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              },
+              "widgetType": "counter"
+            }
+          ]
+        },
+        {
+          "id": "stat-col-2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25
+          },
+          "elements": [
+            {
+              "id": "stat-2",
+              "elType": "widget",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 200,
+                "suffix": "+",
+                "title": "Happy Clients",
+                "number_color": "#FFFFFF",
+                "title_color": "rgba(255,255,255,0.8)",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              },
+              "widgetType": "counter"
+            }
+          ]
+        },
+        {
+          "id": "stat-col-3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25
+          },
+          "elements": [
+            {
+              "id": "stat-3",
+              "elType": "widget",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 15,
+                "suffix": "+",
+                "title": "Years Experience",
+                "number_color": "#FFFFFF",
+                "title_color": "rgba(255,255,255,0.8)",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              },
+              "widgetType": "counter"
+            }
+          ]
+        },
+        {
+          "id": "stat-col-4",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25,
+            "_inline_size": 25
+          },
+          "elements": [
+            {
+              "id": "stat-4",
+              "elType": "widget",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 98,
+                "suffix": "%",
+                "title": "Client Satisfaction",
+                "number_color": "#FFFFFF",
+                "title_color": "rgba(255,255,255,0.8)",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "700"
+              },
+              "widgetType": "counter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "testimonial-header-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "testimonial-title",
+              "elType": "widget",
+              "settings": {
+                "title": "What Our Clients Say",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "50",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials-cards",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1140
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "test-col-1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(36, 76, 109, 0.1)"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "30",
+              "bottom": "30",
+              "left": "30",
+              "isLinked": true
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "test-quote-1",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>\"Red Rocket Digital transformed our online presence. Our website looks amazing and our SEO rankings have improved dramatically. Highly recommended!\"</p>",
+                "align": "left",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_style": "italic"
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "test-name-1",
+              "elType": "widget",
+              "settings": {
+                "title": "Sarah Johnson",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "0",
+                  "bottom": "5",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "test-role-1",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Managing Director, ABC Company</p>",
+                "align": "left",
+                "text_color": "#EC5D49",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "widgetType": "text-editor"
+            }
+          ]
+        },
+        {
+          "id": "test-col-2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(36, 76, 109, 0.1)"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "30",
+              "bottom": "30",
+              "left": "30",
+              "isLinked": true
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "test-quote-2",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>\"Professional team that really understands digital marketing. They've helped us generate more leads than ever before through their PPC campaigns.\"</p>",
+                "align": "left",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_style": "italic"
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "test-name-2",
+              "elType": "widget",
+              "settings": {
+                "title": "Michael Thompson",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "0",
+                  "bottom": "5",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "test-role-2",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Owner, XYZ Services</p>",
+                "align": "left",
+                "text_color": "#EC5D49",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "widgetType": "text-editor"
+            }
+          ]
+        },
+        {
+          "id": "test-col-3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33,
+            "_inline_size": 33,
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 40,
+              "spread": 0,
+              "color": "rgba(36, 76, 109, 0.1)"
+            },
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "30",
+              "right": "30",
+              "bottom": "30",
+              "left": "30",
+              "isLinked": true
+            },
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "15",
+              "bottom": "0",
+              "left": "15",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "test-quote-3",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>\"Excellent social media management. Our engagement has increased significantly and we're seeing real results from our online marketing efforts.\"</p>",
+                "align": "left",
+                "text_color": "#6A7C92",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_style": "italic"
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "test-name-3",
+              "elType": "widget",
+              "settings": {
+                "title": "Emma Williams",
+                "header_size": "h4",
+                "align": "left",
+                "title_color": "#1E1666",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600",
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "0",
+                  "bottom": "5",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "test-role-3",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Marketing Manager, 123 Ltd</p>",
+                "align": "left",
+                "text_color": "#EC5D49",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "widgetType": "text-editor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {
+          "unit": "px",
+          "size": 900
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#1E1666"
+      },
+      "elements": [
+        {
+          "id": "cta-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "cta-title",
+              "elType": "widget",
+              "settings": {
+                "title": "Ready to Grow Your Business?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_weight": "600"
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "cta-text",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p style=\"text-align: center;\">Get in touch with our team today and let's discuss how we can help your business succeed online.</p>",
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.8)",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "20",
+                  "right": "50",
+                  "bottom": "30",
+                  "left": "50",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "cta-btn",
+              "elType": "widget",
+              "settings": {
+                "text": "Contact Us Today",
+                "link": {
+                  "url": "/contact-us/",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "center",
+                "button_type": "default",
+                "background_color": "#FF6C26",
+                "button_background_hover_color": "#FFA526",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "5",
+                  "right": "5",
+                  "bottom": "5",
+                  "left": "5",
+                  "isLinked": true
+                },
+                "button_text_padding": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "40",
+                  "bottom": "16",
+                  "left": "40",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_weight": "600"
+              },
+              "widgetType": "button"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_canvas"
+  }
+}

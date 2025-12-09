@@ -1,0 +1,409 @@
+{
+  "version": "0.4",
+  "title": "Red Rocket Services Page",
+  "type": "page",
+  "content": [
+    {
+      "id": "services-hero",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#1E1666",
+        "background_color_b": "#2A1F7A"
+      },
+      "elements": [
+        {
+          "id": "hero-col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "hero-heading",
+              "elType": "widget",
+              "settings": {
+                "title": "Our Services",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {"unit": "px", "size": 48},
+                "typography_font_weight": "600"
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "hero-subtitle",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p style=\"text-align: center;\">Comprehensive digital marketing solutions to grow your business</p>",
+                "text_color": "rgba(255,255,255,0.8)",
+                "typography_font_size": {"unit": "px", "size": 18},
+                "_margin": {"unit": "px", "top": "15", "right": "100", "bottom": "0", "left": "100", "isLinked": false}
+              },
+              "widgetType": "text-editor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web-design-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "wd-col-img",
+          "elType": "column",
+          "settings": {"_column_size": 50, "_inline_size": 50},
+          "elements": [
+            {
+              "id": "wd-image",
+              "elType": "widget",
+              "settings": {
+                "image": {"url": "", "id": ""},
+                "_element_custom_css": ".elementor-image img { border-radius: 10px; }"
+              },
+              "widgetType": "image"
+            }
+          ]
+        },
+        {
+          "id": "wd-col-text",
+          "elType": "column",
+          "settings": {"_column_size": 50, "_inline_size": 50, "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "40", "isLinked": false}},
+          "elements": [
+            {
+              "id": "wd-title",
+              "elType": "widget",
+              "settings": {
+                "title": "Web Design & Development",
+                "header_size": "h2",
+                "title_color": "#1E1666",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {"unit": "px", "size": 32},
+                "typography_font_weight": "600"
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "wd-desc",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Get a brand new website or revamp an old one to stay ahead of the curve with cutting-edge web design. Our expert designers create stunning, responsive websites that not only look great but also convert visitors into customers.</p><ul><li>Responsive design for all devices</li><li>SEO-optimised structure</li><li>Fast loading speeds</li><li>User-friendly navigation</li><li>Content management systems</li></ul>",
+                "text_color": "#6A7C92",
+                "typography_font_size": {"unit": "px", "size": 15},
+                "typography_line_height": {"unit": "px", "size": 28},
+                "_margin": {"unit": "px", "top": "20", "right": "0", "bottom": "25", "left": "0", "isLinked": false}
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "wd-btn",
+              "elType": "widget",
+              "settings": {
+                "text": "Learn More",
+                "link": {"url": "/web-design/"},
+                "background_color": "#FA887C",
+                "button_background_hover_color": "#FD5F87",
+                "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5", "isLinked": true},
+                "button_text_padding": {"unit": "px", "top": "12", "right": "30", "bottom": "12", "left": "30", "isLinked": false}
+              },
+              "widgetType": "button"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seo-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false},
+        "background_background": "classic",
+        "background_color": "#F8F9FA"
+      },
+      "elements": [
+        {
+          "id": "seo-col-text",
+          "elType": "column",
+          "settings": {"_column_size": 50, "_inline_size": 50, "padding": {"unit": "px", "top": "0", "right": "40", "bottom": "0", "left": "0", "isLinked": false}},
+          "elements": [
+            {
+              "id": "seo-title",
+              "elType": "widget",
+              "settings": {
+                "title": "Search Engine Optimisation",
+                "header_size": "h2",
+                "title_color": "#1E1666",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {"unit": "px", "size": 32},
+                "typography_font_weight": "600"
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "seo-desc",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Ultimate visibility and exposure awaits you with superior website optimisation and search engine marketing. We help businesses climb the rankings and get found by their target audience.</p><ul><li>Keyword research & strategy</li><li>On-page optimisation</li><li>Technical SEO audits</li><li>Link building campaigns</li><li>Local SEO services</li></ul>",
+                "text_color": "#6A7C92",
+                "typography_font_size": {"unit": "px", "size": 15},
+                "typography_line_height": {"unit": "px", "size": 28},
+                "_margin": {"unit": "px", "top": "20", "right": "0", "bottom": "25", "left": "0", "isLinked": false}
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "seo-btn",
+              "elType": "widget",
+              "settings": {
+                "text": "Learn More",
+                "link": {"url": "/seo/"},
+                "background_color": "#16A3BD",
+                "button_background_hover_color": "#1656BD",
+                "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5", "isLinked": true},
+                "button_text_padding": {"unit": "px", "top": "12", "right": "30", "bottom": "12", "left": "30", "isLinked": false}
+              },
+              "widgetType": "button"
+            }
+          ]
+        },
+        {
+          "id": "seo-col-img",
+          "elType": "column",
+          "settings": {"_column_size": 50, "_inline_size": 50},
+          "elements": [
+            {
+              "id": "seo-image",
+              "elType": "widget",
+              "settings": {
+                "image": {"url": "", "id": ""},
+                "_element_custom_css": ".elementor-image img { border-radius: 10px; }"
+              },
+              "widgetType": "image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppc-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false}
+      },
+      "elements": [
+        {
+          "id": "ppc-col-img",
+          "elType": "column",
+          "settings": {"_column_size": 50, "_inline_size": 50},
+          "elements": [
+            {
+              "id": "ppc-image",
+              "elType": "widget",
+              "settings": {"image": {"url": "", "id": ""}},
+              "widgetType": "image"
+            }
+          ]
+        },
+        {
+          "id": "ppc-col-text",
+          "elType": "column",
+          "settings": {"_column_size": 50, "_inline_size": 50, "padding": {"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "40", "isLinked": false}},
+          "elements": [
+            {
+              "id": "ppc-title",
+              "elType": "widget",
+              "settings": {
+                "title": "Paid Advertising (PPC)",
+                "header_size": "h2",
+                "title_color": "#1E1666",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {"unit": "px", "size": 32},
+                "typography_font_weight": "600"
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "ppc-desc",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Direct your target demographic straight to your products and services through powerful PPC ads. We create and manage campaigns that deliver measurable results and maximise your ROI.</p><ul><li>Google Ads management</li><li>Facebook & Instagram ads</li><li>LinkedIn advertising</li><li>Remarketing campaigns</li><li>Conversion tracking</li></ul>",
+                "text_color": "#6A7C92",
+                "typography_font_size": {"unit": "px", "size": 15},
+                "typography_line_height": {"unit": "px", "size": 28},
+                "_margin": {"unit": "px", "top": "20", "right": "0", "bottom": "25", "left": "0", "isLinked": false}
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "ppc-btn",
+              "elType": "widget",
+              "settings": {
+                "text": "Learn More",
+                "link": {"url": "/paid-advertising/"},
+                "background_color": "#FFA526",
+                "button_background_hover_color": "#FF6C26",
+                "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5", "isLinked": true},
+                "button_text_padding": {"unit": "px", "top": "12", "right": "30", "bottom": "12", "left": "30", "isLinked": false}
+              },
+              "widgetType": "button"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1140},
+        "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false},
+        "background_background": "classic",
+        "background_color": "#F8F9FA"
+      },
+      "elements": [
+        {
+          "id": "social-col-text",
+          "elType": "column",
+          "settings": {"_column_size": 50, "_inline_size": 50, "padding": {"unit": "px", "top": "0", "right": "40", "bottom": "0", "left": "0", "isLinked": false}},
+          "elements": [
+            {
+              "id": "social-title",
+              "elType": "widget",
+              "settings": {
+                "title": "Social Media Marketing",
+                "header_size": "h2",
+                "title_color": "#1E1666",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {"unit": "px", "size": 32},
+                "typography_font_weight": "600"
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "social-desc",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Engage your audience and build brand loyalty through strategic social media marketing. We create compelling content and manage your social presence across all major platforms.</p><ul><li>Content creation & curation</li><li>Community management</li><li>Social media strategy</li><li>Influencer partnerships</li><li>Analytics & reporting</li></ul>",
+                "text_color": "#6A7C92",
+                "typography_font_size": {"unit": "px", "size": 15},
+                "typography_line_height": {"unit": "px", "size": 28},
+                "_margin": {"unit": "px", "top": "20", "right": "0", "bottom": "25", "left": "0", "isLinked": false}
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "social-btn",
+              "elType": "widget",
+              "settings": {
+                "text": "Learn More",
+                "link": {"url": "/social-media-marketing/"},
+                "background_color": "#1656BD",
+                "button_background_hover_color": "#16A3BD",
+                "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5", "isLinked": true},
+                "button_text_padding": {"unit": "px", "top": "12", "right": "30", "bottom": "12", "left": "30", "isLinked": false}
+              },
+              "widgetType": "button"
+            }
+          ]
+        },
+        {
+          "id": "social-col-img",
+          "elType": "column",
+          "settings": {"_column_size": 50, "_inline_size": 50},
+          "elements": [
+            {
+              "id": "social-image",
+              "elType": "widget",
+              "settings": {"image": {"url": "", "id": ""}},
+              "widgetType": "image"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": {"unit": "px", "size": 900},
+        "padding": {"unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false},
+        "background_background": "gradient",
+        "background_color": "#FA887C",
+        "background_color_b": "#FD5F87"
+      },
+      "elements": [
+        {
+          "id": "cta-col",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "cta-title",
+              "elType": "widget",
+              "settings": {
+                "title": "Ready to Get Started?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_font_family": "Poppins",
+                "typography_font_size": {"unit": "px", "size": 36},
+                "typography_font_weight": "600"
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "cta-text",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p style=\"text-align: center;\">Contact us today for a free consultation and let's discuss your digital marketing needs.</p>",
+                "text_color": "rgba(255,255,255,0.9)",
+                "typography_font_size": {"unit": "px", "size": 18},
+                "_margin": {"unit": "px", "top": "15", "right": "50", "bottom": "25", "left": "50", "isLinked": false}
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "cta-btn",
+              "elType": "widget",
+              "settings": {
+                "text": "Contact Us",
+                "link": {"url": "/contact-us/"},
+                "align": "center",
+                "background_color": "#FFFFFF",
+                "button_text_color": "#1E1666",
+                "border_radius": {"unit": "px", "top": "5", "right": "5", "bottom": "5", "left": "5", "isLinked": true},
+                "button_text_padding": {"unit": "px", "top": "14", "right": "35", "bottom": "14", "left": "35", "isLinked": false}
+              },
+              "widgetType": "button"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {"template": "elementor_canvas"}
+}
